@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {View, TextInput, StyleSheet, Text} from 'react-native';
-import {Tick} from '../../assets/svgs';
 import * as Colors from '../common/colors';
 
 export const CustomInput = ({
