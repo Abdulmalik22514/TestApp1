@@ -7,17 +7,24 @@ export const AboutStyles = StyleSheet.create({
     fontSize: 25,
     color: Colors.Purple,
   },
+  pictureContainer: {
+    width: 200,
+    height: 200,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 100,
+    overflow: 'hidden',
+  },
   headerView: {
     flexDirection: 'row',
     alignItems: 'center',
     paddingLeft: 20,
     marginVertical: 10,
-    justifyContent: 'space-between',
-    width: 270,
   },
   heading: {
     fontSize: 40,
     fontWeight: '700',
+    marginLeft: 100,
   },
   aboutContainer: {
     padding: 20,
@@ -41,7 +48,7 @@ export const AboutStyles = StyleSheet.create({
     fontSize: 20,
     fontWeight: '300',
     marginBottom: 10,
-    width: 345,
     lineHeight: 25,
+    width: '100%',
   },
 });

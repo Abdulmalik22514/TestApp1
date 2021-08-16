@@ -11,7 +11,7 @@ export const HomeStyles = StyleSheet.create({
     paddingLeft: 20,
     marginVertical: 10,
     justifyContent: 'space-between',
-    width: 270,
+    width: 250,
   },
   heading: {
     fontSize: 40,

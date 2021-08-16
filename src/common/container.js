@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, View, StatusBar, ScrollView} from 'react-native';
+import {SafeAreaView, StatusBar, ScrollView} from 'react-native';
 import * as Colors from './colors';
 
 export const Container = ({
